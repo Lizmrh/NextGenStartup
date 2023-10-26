@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{% static 'styles/main.css' %}">
+        <script src="{% static 'scripts/main.js' %}" defer></script>
+        <title>Mettere il block</title> 
+    </head>
+    <body >
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <!-- Icon -->
+            <div class="navbar-brand">
+                <a class="navbar-item" href="">
+                  <img src="https://i.ibb.co/JzpBnHb/Next-Generation-Startup-Logo-A-2-Mockup.jpg" width="50" height="28">
+                </a>
+            
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-end">
+                <!-- Home -->
+                <a class="navbar-item">
+                    Home
+                </a>
+                <!-- About dropdown -->
+                <div class="navbar-item has-dropdown is-hoverable"> 
+                    <a class="navbar-link">
+                        About
+                    </a>
+    
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Our Mission
+                        </a>
+                        <a class="navbar-item">
+                            Educational Pods
+                        </a>
+                        <a class="navbar-item">
+                            Schools
+                        </a>
+                        <a class="navbar-item">
+                            For Parents
+                        </a>
+                        <a class="navbar-item">
+                            Main Gallery
+                        </a>
+                    </div>
+                </div>
+                <!-- Our Programs -->
+                <div class="navbar-item has-dropdown is-hoverable"> 
+                    <a class="navbar-link">
+                        Our Programs
+                    </a>
+    
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            After School Classes
+                        </a>
+                        <a class="navbar-item">
+                            Vacation Camps
+                        </a>
+                        <a class="navbar-item">
+                            Private Sessions
+                        </a>
+                    </div>
+                    <!-- Contact -->
+                    <a class="navbar-item">
+                        Contact
+                    </a>
+                    <!-- Gallery -->
+                    <a class="navbar-item">
+                        Gallery
+                    </a>
+            </div>
+            </div>
+        </nav>
+    </body>
+</html>
