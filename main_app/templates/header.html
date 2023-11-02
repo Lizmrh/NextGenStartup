@@ -10,14 +10,14 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{% static 'styles/main.css' %}">
         <script src="{% static 'scripts/main.js' %}" defer></script>
-        <title>Mettere il block</title> 
+        <title>NextGenStartup - {% block title %}{% endblock %}</title> 
     </head>
     <body >
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <!-- Icon -->
             <div class="navbar-brand">
                 <a class="navbar-item" href="">
-                  <img src="https://i.ibb.co/JzpBnHb/Next-Generation-Startup-Logo-A-2-Mockup.jpg" width="50" height="28">
+                  <img src="https://i.ibb.co/JzpBnHb/Next-Generation-Startup-Logo-A-2-Mockup.jpg" width="60" height="52">
                 </a>
             
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">

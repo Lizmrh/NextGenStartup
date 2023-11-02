@@ -1,0 +1,14 @@
+.navbar {
+    font-style: italic;
+    font-family: sofia-pro;
+    font-size: large;
+    font-style: bold;
+}
+
+.navbar-item {
+    color: #f77502;
+}
+
+.navbar-link{
+    color: #f77502;
+}
