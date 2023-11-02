@@ -12,3 +12,15 @@
 .navbar-link{
     color: #f77502;
 }
+
+.footer{
+    background-color: bisque;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.link{
+    color: black;
+    text-decoration: underline;
+
+}
