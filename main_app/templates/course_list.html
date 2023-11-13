@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Next Generation Startup</title>
-</head>
+{% extends 'base.html' %}
 
-<body>
+{% comment %}Enrichment after-School programs in science, technology, engineering and mathematics with fun and practical applications {% endcomment %}
+{% block title%}course{% endblock %}
 
-    <h1 class="title pt-5">STEAM Courses</h1>
+{% block content %}
+
+<h1 class="title pt-5">STEAM Courses</h1>
 <div class="gallery">
   {% for course in courses %}
   <a href="">
@@ -19,10 +16,10 @@
         </figure>
       </div>
       <div class="card-header">
-        <p class="card-header-title">{{artist.name}}</p>
+        <p class="card-header-title">{{course.name}}</p>
       </div>
     </div>
   </a>
-</body>
-
-</html>
+  {% endfor %}
+</div>
+{% endblock %}
