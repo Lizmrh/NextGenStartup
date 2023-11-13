@@ -11,6 +11,24 @@ from django.views.generic.base import TemplateView
 class Home(TemplateView):
     template_name = "home.html"
 
+class About_OurMission(TemplateView):
+    template_name = "About_OurMission.html"
+
+class About_EducationalPods(TemplateView):
+    template_name = "About_EducationalPods.html"
+
+class About_Schools(TemplateView):
+    template_name = "About_Schools.html"
+
+class About_ForParents(TemplateView):
+    template_name = "About_ForParents.html"
+
+class About_MainGallery(TemplateView):
+    template_name = "About_MainGallery.html"
+
+
+
+
 class CourseList(TemplateView):
     template_name = "course_list.html"
 
