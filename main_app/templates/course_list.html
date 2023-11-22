@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% comment %}Enrichment after-School programs in science, technology, engineering and mathematics with fun and practical applications {% endcomment %}
+{% block title%}course{% endblock %}
+
+{% block content %}
+
+<h1 class="title pt-5">STEAM Courses</h1>
+<div class="gallery">
+  {% for course in courses %}
+  <a href="">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-square">
+          <img src="{{course.image}}" alt="{{course.name}}" />
+        </figure>
+      </div>
+      <div class="card-header">
+        <p class="card-header-title">{{course.name}}</p>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}

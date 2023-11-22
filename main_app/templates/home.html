@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>NGS Home</title>
-    </head>
+{% extends 'base.html' %}
+{% block title %}Home Page{% endblock %}
+{%block content%}
     <body>
-        <h1>Next Generation Startup</h1>
-    </body>
-</html>
+        <h1 class="title pt-5">Next Generation Startup</h1>
+        <h2>Offering Enrichment classes in <a href="/courses">S.T.E.A.M. and Entrepreneuship</a> for kids grades K-12.</h2>
+        <h2>Check out our in-home Pod classes (insertlinkhere)</h2>
+        <h2>See our After-school Programs</h2>
+        <div>
+            <p>gallery</p>
+        </div>
+        <div>
+            <p>line _______s_____</p>
+        </div>
+        <div>
+            <h3>Take a look at our most recent projects!</h3>
+            <button>In-home Gallery</button>
+            <button>After-School Gallery</button>
+            <button>Private Pod Gallery</button>
+        </div>
+{%endblock%}

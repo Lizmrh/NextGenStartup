@@ -1,0 +1,26 @@
+.navbar {
+    font-style: italic;
+    font-family: sofia-pro;
+    font-size: large;
+    font-style: bold;
+}
+
+.navbar-item {
+    color: #f77502;
+}
+
+.navbar-link{
+    color: #f77502;
+}
+
+.footer{
+    background-color: bisque;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.link{
+    color: black;
+    text-decoration: underline;
+
+}
