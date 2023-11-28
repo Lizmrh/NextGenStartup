@@ -1,6 +1,18 @@
+body{
+    margin: 18px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Varela', sans-serif;
+}
+
+.columns{
+    margin: center;
+}
+
 .navbar {
-    font-style: italic;
-    font-family: sofia-pro;
+    font-family: 'Varela', sans-serif;
     font-size: large;
     font-style: bold;
 }
@@ -28,6 +40,7 @@
 #header-logo{
     max-height: max-content;
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
+    margin: -175px 00 -175px;
   }
